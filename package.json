@@ -1,0 +1,8 @@
+{
+  "name": "softco-digital",
+  "version": "1.0.0",
+  "description": "Softco Digital Website",
+  "dependencies": {
+    "nodemailer": "^6.9.8"
+  }
+}

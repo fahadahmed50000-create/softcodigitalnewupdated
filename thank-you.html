@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Thank you for contacting Softco Digital. We will get back to you shortly.">
+  <title>Thank You - Softco Digital</title>
+
+  <link rel="shortcut icon" href="assets/img/logo-icon.png" type="image/x-icon" />
+  <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="assets/css/font-awesome.min.css" rel="stylesheet" />
+  <link href="assets/css/validnavs.css" rel="stylesheet" />
+  <link href="assets/css/style.css" rel="stylesheet" />
+  <link href="assets/css/helper.css" rel="stylesheet" />
+  
+  <style>
+    .thank-you-hero {
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      overflow: hidden;
+    }
+    .thank-you-hero::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="40" fill="none" stroke="rgba(255,255,255,0.05)" stroke-width="0.5"/></svg>');
+      background-size: 200px 200px;
+      animation: float 20s linear infinite;
+    }
+    @keyframes float {
+      0% { transform: translateY(0) rotate(0deg); }
+      100% { transform: translateY(-200px) rotate(360deg); }
+    }
+    .thank-you-card {
+      background: rgba(255, 255, 255, 0.05);
+      backdrop-filter: blur(20px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 30px;
+      padding: 60px 50px;
+      max-width: 700px;
+      position: relative;
+      z-index: 1;
+      box-shadow: 0 25px 80px rgba(0, 0, 0, 0.4);
+    }
+    .success-icon {
+      width: 120px;
+      height: 120px;
+      background: linear-gradient(135deg, #00c853 0%, #69f0ae 100%);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 0 auto 30px;
+      box-shadow: 0 15px 40px rgba(0, 200, 83, 0.4);
+      animation: pulse 2s ease-in-out infinite;
+    }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); box-shadow: 0 15px 40px rgba(0, 200, 83, 0.4); }
+      50% { transform: scale(1.05); box-shadow: 0 20px 50px rgba(0, 200, 83, 0.6); }
+    }
+    .success-icon i {
+      font-size: 60px;
+      color: white;
+    }
+    .thank-you-title {
+      font-size: 42px;
+      font-weight: 700;
+      color: white;
+      margin-bottom: 20px;
+      letter-spacing: -1px;
+    }
+    .thank-you-text {
+      font-size: 18px;
+      color: rgba(255, 255, 255, 0.8);
+      line-height: 1.8;
+      margin-bottom: 15px;
+    }
+    .home-btn {
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      padding: 16px 45px;
+      font-size: 18px;
+      font-weight: 600;
+      border-radius: 50px;
+      text-decoration: none;
+      display: inline-block;
+      transition: all 0.3s ease;
+      border: none;
+      margin-top: 20px;
+      box-shadow: 0 10px 30px rgba(102, 126, 234, 0.4);
+    }
+    .home-btn:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 15px 40px rgba(102, 126, 234, 0.6);
+      color: white;
+    }
+    .home-btn i {
+      margin-right: 10px;
+    }
+    .what-next {
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 15px;
+      padding: 25px;
+      margin-top: 30px;
+    }
+    .what-next h4 {
+      color: white;
+      font-size: 18px;
+      margin-bottom: 15px;
+      font-weight: 600;
+    }
+    .what-next ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .what-next li {
+      color: rgba(255, 255, 255, 0.7);
+      padding: 8px 0;
+      padding-left: 25px;
+      position: relative;
+      font-size: 15px;
+    }
+    .what-next li::before {
+      content: '\f00c';
+      font-family: 'Font Awesome 5 Free';
+      font-weight: 900;
+      position: absolute;
+      left: 0;
+      color: #00c853;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="thank-you-hero">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="thank-you-card text-center">
+            <div class="success-icon">
+              <i class="fas fa-check"></i>
+            </div>
+            <h1 class="thank-you-title">Thank You!</h1>
+            <p class="thank-you-text">
+              Your message has been received successfully. We truly appreciate you taking the time to reach out to us.
+            </p>
+            <p class="thank-you-text" style="margin-bottom: 25px;">
+              Our dedicated team will review your inquiry and get back to you within <strong>24-48 hours</strong>. We're excited to help you grow your business with our cutting-edge digital marketing solutions.
+            </p>
+            
+            <div class="what-next">
+              <h4>What Happens Next?</h4>
+              <ul>
+                <li>Our team will review your message and requirements</li>
+                <li>We'll prepare a customized response tailored to your needs</li>
+                <li>You'll receive a call or email from our representative</li>
+              </ul>
+            </div>
+            
+            <a href="index.html" class="home-btn">
+              <i class="fas fa-home"></i> Back to Home
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/jquery-3.6.0.min.js"></script>
+  <script defer src="assets/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
